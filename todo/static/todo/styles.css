@@ -108,3 +108,53 @@ footer {
 .waveAnimation .waveBottom {
     animation: move_wave 15s linear infinite;
 }
+.name_todo{
+    color: purple;
+}
+.todo{
+    width: 30%;
+    margin-left: 35%;
+    background: black;
+    z-index: 15;
+    position: absolute;
+    border: 2px solid white;
+    height: auto;
+    padding-bottom: 2%;
+    margin-top: 10%;
+}
+a{
+    text-align: center;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+button{
+    margin-top: 2%;
+    width: 20%;
+    margin-left: 40%;
+    color: black;
+}
+.form-group{
+    width: 40%;
+    margin-left: 30%;
+}
+.btn-default{
+    width: 50%;
+    color: black;
+    background: white;
+    margin-left: 25%;
+    margin-top: 3%;
+}
+p{
+    color: red;
+    margin-left: 10%;
+}
+.task{
+    color: white;
+    font-size: 1.4em;
+}

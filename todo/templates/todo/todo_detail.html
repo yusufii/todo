@@ -1,0 +1,10 @@
+{% extends 'todo/base.html' %}
+
+{% block content %}
+    <a class="btn btn-default" href="{% url 'todo_edit' pk=todo.pk %}">Изменить</a>
+    <a class="btn btn-default" href="{% url 'todo_delete' pk=todo.pk %}">Удалить</a>
+    <div>
+        <h1>{{ todo.task }}</h1>
+        <p>{{ todo.status|linebreaksbr }}</p>
+    </div>
+{% endblock %}
